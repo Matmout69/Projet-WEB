@@ -6,7 +6,7 @@ html {
 	height: 100%;
 }
 
-#tacc {
+h1 {
 	font-family: Verdana;
 	font-size: 48px;
 	text-align: center;	
@@ -42,23 +42,52 @@ html {
 #bouton1 {
 	position: absolute;
 	left: 18%;
-	top: 570px;
+	top: 72%;
+	width: 10%;
+	height: 20%;
+}
+
+#bouton1:hover {
+	width: 14%;
+	height: 28%;
 }
 
 #bouton2 {
 	position: absolute;
 	left: 36%;
-	top: 570px;
+	top: 72%;
+	width: 10%;
+	height: 20%;
+}
+
+#bouton2:hover {
+	width: 14%;
+	height: 28%;
 }
 
 #bouton3 {
 	position: absolute;
 	left: 54%;
-	top: 570px;
+	top: 72%;
+	width: 10%;
+	height: 20%;
+}
+
+#bouton3:hover {
+	width: 14%;
+	height: 28%;
 }
 
 #bouton4 {
 	position: absolute;
 	left: 72%;
-	top: 570px;
+	top: 72%;
+	width: 10%;
+	height: 20%;
+}
+
+#bouton4:hover {
+	width: 14%;
+	height: 28%;
+	
 }
