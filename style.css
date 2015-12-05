@@ -8,7 +8,7 @@ html {
 
 h1 {
 	font-family: Verdana;
-	font-size: 48px;
+	font-size: 250%;
 	text-align: center;	
 	text-shadow: 0 1px 0 #eee,
 				 0 2px 0 #e5e5e5,
@@ -24,7 +24,7 @@ h1 {
 } 
 
 #pacc {
-	font-size: 18px;
+	font-size: 112.5%;
 	text-align: center;
 	font-family: Verdana;
 	text-shadow: 0 0 7px rgba(0,0,0, 10);
