@@ -153,10 +153,7 @@ ul li a:focus{
 	font-weight: bold;
 } 
 
-prom {
-	transition-delay: color red 1s;
 
-}
 #prom:hover {
 	color:red;
 }
@@ -197,4 +194,40 @@ ul li a:focus::before{
 #test {
 	width:20%;
 	height:20%;
+}
+
+#papr{
+	color:white;
+	background: black;
+	border: 5px groove red;
+	font-family: Verdana;
+	max-width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+#cont {
+	width:30%;
+	height:30%;
+	color: black;
+}
+
+#cont:hover{
+	color:white;
+}
+
+tr {
+	border: none;
+}
+
+td {
+	width: 25%;
+}
+
+table {
+	color:black;
+}
+
+table:hover {
+	color:white;
 }
