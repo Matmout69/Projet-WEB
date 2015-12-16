@@ -39,58 +39,6 @@ h1 {
 	color: black;
 }
 
-#bouton1 {
-	position: absolute;
-	left: 18%;
-	top: 72%;
-	width: 10%;
-	height: 20%;
-}
-
-#bouton1:hover {
-	width: 14%;
-	height: 28%;
-}
-
-#bouton2 {
-	position: absolute;
-	left: 36%;
-	top: 72%;
-	width: 10%;
-	height: 20%;
-}
-
-#bouton2:hover {
-	width: 14%;
-	height: 28%;
-}
-
-#bouton3 {
-	position: absolute;
-	left: 54%;
-	top: 72%;
-	width: 10%;
-	height: 20%;
-}
-
-#bouton3:hover {
-	width: 14%;
-	height: 28%;
-}
-
-#bouton4 {
-	position: absolute;
-	left: 72%;
-	top: 72%;
-	width: 10%;
-	height: 20%;
-}
-
-#bouton4:hover {
-	width: 14%;
-	height: 28%;
-	
-}
 
 ul{
 	font-family: Verdana;
@@ -227,7 +175,6 @@ td {
 table {
 	color:black;
 }
-
-table:hover {
+td:hover {
 	color:white;
 }
