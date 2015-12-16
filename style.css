@@ -157,11 +157,6 @@ ul li a:focus::before{
 #cont {
 	width:30%;
 	height:30%;
-	color: black;
-}
-
-#cont:hover{
-	color:white;
 }
 
 tr {
@@ -172,9 +167,7 @@ td {
 	width: 25%;
 }
 
-table {
-	color:black;
-}
-td:hover {
-	color:white;
-}
+
+
+
+
