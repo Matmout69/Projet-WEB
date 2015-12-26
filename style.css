@@ -139,12 +139,8 @@ ul li a:focus::before{
 
 }
 
-#test {
-	width:20%;
-	height:20%;
-}
 
-#papr{
+#tab{
 	color:white;
 	background: black;
 	border: 5px groove red;
@@ -154,20 +150,38 @@ ul li a:focus::before{
 	text-align: center;
 }
 
-#cont {
+.cont {
 	width:30%;
 	height:30%;
 }
 
-tr {
-	border: none;
+#pcont:hover {
+	width:60%;
+	height:60%;
 }
 
 td {
-	width: 25%;
+	width: 20%;
 }
 
+#int {
+	font-weight: bold;
+}
 
+#ap {
+	text-decoration: line-through;
+}
 
+#np {
+	color: red;
+}
 
+.pan {
+	width: 50%;
+	height: 50%;
+}
 
+span {
+	font-weight: bold;
+	
+}
