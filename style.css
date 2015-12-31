@@ -156,8 +156,8 @@ ul li a:focus::before{
 }
 
 #pcont:hover {
-	width:60%;
-	height:60%;
+	width:40%;
+	height:40%;
 }
 
 td {
@@ -181,7 +181,9 @@ td {
 	height: 50%;
 }
 
-span {
-	font-weight: bold;
+#uti {
+	width: 20%;
+	height: 20%;
 	
 }
+
