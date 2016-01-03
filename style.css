@@ -148,6 +148,7 @@ ul li a:focus::before{
 	max-width: 50%;
 	margin: auto;
 	text-align: center;
+	overflow: auto;
 }
 
 .cont {
@@ -187,3 +188,133 @@ td {
 	
 }
 
+#lint {
+	border-spacing: 5px 15px;
+	border-collapse: separate;
+}
+
+#lint span {
+	font-weight: bold;
+}
+
+#com{
+	color:white;
+	background: black;
+	border: 5px groove red;
+	font-family: Verdana;
+	max-width: 50%;
+	margin: auto;
+	overflow: auto;
+	height: 38em;
+}
+
+form#paiement {
+  background: black;
+  border-radius: 5px;
+  padding: 2%;
+  width: auto;
+}
+
+form#paiement fieldset {
+  border: none;
+  margin-bottom: 2%;
+}
+
+
+form#paiement legend {
+  color: red;
+  font-size: 100%;
+  font-weight: bold;
+  padding-bottom: 2%;
+  text-shadow: -1px 1px 1px #980000;
+}
+
+form#paiement fieldset fieldset legend {
+  color: white;
+  font-size: 80%;
+  font-weight: normal;
+}
+
+form#paiement ol li {
+  background: #b9cf6a;
+  background: rgba(255,255,255,.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 1% 2%;
+  margin-bottom: 2px;
+}
+form#paiement ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+
+form#paiement label {
+  float: left;
+  font-size: 80%;
+  width: 20%;
+}
+form#paiement fieldset fieldset label {
+  background:none no-repeat left 50%;
+  line-height: 150%;
+  padding: 0 0 0 35px;
+  width: auto;
+}
+form#paiement label[for=visa] {
+  background-image: url(images/visa.ico);
+}
+form#paiement label[for=amex] {
+  background-image: url(images/amex.ico);
+}
+form#paiement label[for=mastercard] {
+  background-image: url(images/mastercard.ico);
+}
+form#paiement fieldset fieldset label:hover {
+  cursor: pointer;
+}
+
+form#paiement input:not([type=radio]),
+form#paiement textarea {
+  background: #ffffff;
+  border: none;
+  border-radius: 3px;
+  font: italic 80% Verdana;
+  outline: none;
+  padding: 1%;
+  width: 50%;
+}
+form#paiement input:not([type=submit]):focus,
+form#paiement textarea:focus {
+  background: #eaeaea;
+}
+form#paiement input[type=radio] {
+  float: left;
+  margin-right: 10px;
+}
+
+button {
+  background: red;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  display: block;
+  font: 100% Georgia;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 1% 3%;
+  text-shadow: 1px 2px 1px black;
+  text-transform: uppercase;
+}
+button:hover {
+  background: #980000;
+  cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
