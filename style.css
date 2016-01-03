@@ -8,7 +8,7 @@ html {
 
 h1 {
 	font-family: Verdana;
-	font-size: 250%;
+	font-size: 220%;
 	text-align: center;	
 	text-shadow: 0 1px 0 #eee,
 				 0 2px 0 #e5e5e5,
@@ -30,13 +30,6 @@ h1 {
 	text-shadow: 0 0 7px rgba(0,0,0, 10);
 	color: white;
 	
-}
-
-#lacc {
-	font-size: 18px;
-	text-decoration: none;
-	text-align: center;
-	color: black;
 }
 
 
@@ -149,6 +142,8 @@ ul li a:focus::before{
 	margin: auto;
 	text-align: center;
 	overflow: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 .cont {
@@ -156,9 +151,19 @@ ul li a:focus::before{
 	height:30%;
 }
 
-#pcont:hover {
-	width:40%;
-	height:40%;
+.cont2 {
+	width: 17%;
+	height: 17%
+}
+
+.cont:hover {
+	width:50%;
+	height:50%;
+}
+
+.cont2:hover {
+	width: 30%;
+	height: 30%;
 }
 
 td {
@@ -206,6 +211,17 @@ td {
 	margin: auto;
 	overflow: auto;
 	height: 38em;
+}
+
+#acceuil{
+	color:white;
+	background: black;
+	border: 5px groove red;
+	font-family: Verdana;
+	max-width: 50%;
+	margin: auto;
+	overflow: auto;
+	height: 29.8em;
 }
 
 form#paiement {
@@ -303,8 +319,8 @@ button {
   border-radius: 20px;
   color: white;
   display: block;
-  font: 100% Georgia;
-  letter-spacing: 1px;
+  font: 100% Verdana;
+  letter-spacing: 0.5px;
   margin: auto;
   padding: 1% 3%;
   text-shadow: 1px 2px 1px black;
@@ -319,3 +335,27 @@ a {
 	text-decoration: none;
 }
 
+#imac1 {
+	float: left;
+	width: 50%;
+}
+
+#imac2 {
+	float: right;
+	width: 50%;
+
+}
+
+#logo {
+	width: 5%;
+}
+
+#aclogo {
+	width: 80%;
+	height: 80%;
+}
+
+#news {
+	background-color: white;
+	color: black;
+}
