@@ -209,7 +209,7 @@ td {
 	font-family: Verdana;
 	max-width: 50%;
 	margin: auto;
-	overflow: hidden;
+	overflow: auto;
 	height: 38em;
 }
 
