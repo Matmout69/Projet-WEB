@@ -222,7 +222,7 @@ td {
 	margin: auto;
 	height: 29.8em;
 }
-#test2{
+#news{
   max-height: 15%;
   overflow-y: scroll;
   float: left;
@@ -359,7 +359,7 @@ a {
 	height: 80%;
 }
 
-#news {
+#newsb {
 	background-color: white;
 	color: black;
 }
