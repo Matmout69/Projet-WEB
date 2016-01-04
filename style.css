@@ -172,10 +172,7 @@ ul li a:focus::before{
 	height: 40%;
 }
 
-.conta:hover {
-	width: 60%;
-	height: 60%;
-}
+
 
 td {
 	width: 20%;
@@ -247,6 +244,7 @@ td {
 #imart{
   max-height: 15%;
   overflow-y: scroll;
+  table-layout: fixed;
 }
 
 #comart {
@@ -402,4 +400,9 @@ a {
 
 #art {
 	text-align: center;
+}
+
+#contapant {
+	height: 20%;
+	width: 20%;
 }
