@@ -166,6 +166,16 @@ ul li a:focus::before{
 	height: 30%;
 }
 
+.conta {
+	width: 40%;
+	height: 40%;
+}
+
+.conta:hover {
+	width: 60%;
+	height: 60%;
+}
+
 td {
 	width: 20%;
 }
