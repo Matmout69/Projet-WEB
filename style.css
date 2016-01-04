@@ -238,7 +238,7 @@ td {
 	font-family: Verdana;
 	max-width: 50%;
 	margin: auto;
-	height: 30.5em;
+	height: 37.5em;
 }
 
 #imart{
@@ -405,4 +405,8 @@ a {
 #contapant {
 	height: 20%;
 	width: 20%;
+}
+
+select {
+	width: 49%;
 }
