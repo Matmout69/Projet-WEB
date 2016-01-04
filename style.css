@@ -3,6 +3,7 @@ html {
 	background-position:center center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	background-attachment: fixed;
 	height: 100%;
 }
 
@@ -232,6 +233,27 @@ td {
 	margin: auto;
 	height: 29.8em;
 }
+
+#article{
+	color:white;
+	background: black;
+	border: 5px groove red;
+	font-family: Verdana;
+	max-width: 50%;
+	margin: auto;
+	height: 30.5em;
+}
+
+#imart{
+  max-height: 15%;
+  overflow-y: scroll;
+}
+
+#comart {
+	background-color: white;
+	color: black;
+}
+
 #news{
   max-height: 15%;
   overflow-y: scroll;
@@ -372,4 +394,12 @@ a {
 #newsb {
 	background-color: white;
 	color: black;
+}
+
+#detail {
+	text-justify: auto;
+}
+
+#art {
+	text-align: center;
 }
