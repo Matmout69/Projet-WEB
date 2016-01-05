@@ -55,6 +55,7 @@ ul{
 }
 ul li{
     display: table-cell;
+	
 }
 
 ul li a{
@@ -408,8 +409,8 @@ a {
 }
 
 #contapetit {
-	height: 80%;
-	width: 80%;
+	height: 60%;
+	width: 60%;
 }
 
 #contagros {
@@ -419,4 +420,8 @@ a {
 
 select {
 	width: 49%;
+}
+
+@media only screen and (min-width:768px){
+	[class*="menu"] (width: 100%;)
 }
