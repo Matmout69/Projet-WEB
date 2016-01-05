@@ -163,8 +163,8 @@ ul li a:focus::before{
 }
 
 .cont2:hover {
-	width: 30%;
-	height: 30%;
+	width: 23%;
+	height: 23%;
 }
 
 .conta {
@@ -405,6 +405,16 @@ a {
 #contapant {
 	height: 20%;
 	width: 20%;
+}
+
+#contapetit {
+	height: 80%;
+	width: 80%;
+}
+
+#contagros {
+	height: 22%;
+	width: 22%;
 }
 
 select {
