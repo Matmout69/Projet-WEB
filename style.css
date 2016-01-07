@@ -24,6 +24,29 @@ h1 {
 	color: White;
 } 
 
+button {
+  background: red;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  display: block;
+  font: 100% Verdana;
+  letter-spacing: 0.5px;
+  margin: auto;
+  padding: 1% 3%;
+  text-shadow: 1px 2px 1px black;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: #980000;
+  cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
 #pacc {
 	font-size: 112.5%;
 	text-align: center;
@@ -31,6 +54,41 @@ h1 {
 	text-shadow: 0 0 7px rgba(0,0,0, 10);
 	color: white;
 	
+}
+
+#imac1 {
+	float: left;
+	width: 50%;
+}
+
+#imac2 {
+	float: right;
+	width: 50%;
+
+}
+
+#news{
+  max-height: 15%;
+  overflow-y: scroll;
+  float: left;
+}
+
+.newsb {
+	background-color: white;
+	color: black;
+}
+
+.logo {
+	width: 5%;
+}
+
+.aclogo {
+	width: 80%;
+	height: 80%;
+}
+
+td {
+	width: 20%;
 }
 
 
@@ -97,10 +155,6 @@ ul li a:focus{
 } 
 
 
-#prom:hover {
-	color:red;
-}
-
 ul li a:active{
     background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
     box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
@@ -123,19 +177,14 @@ ul li a:focus::before{
     background: red;
     box-shadow: 0 0 2px red, 
                 0 -1px 0 rgba(0, 0, 0, .4);
-}
+} 
 
-#pr1 {
-	background: black;
-	width: 80%;
-	border: 5px groove red;
-	border-radius:0%;
-	margin: auto;
-
+#prom:hover {
+	color:red;
 }
 
 
-#tab{
+.tab{
 	color:white;
 	background: black;
 	border: 5px groove red;
@@ -148,46 +197,17 @@ ul li a:focus::before{
 	padding-bottom: 1%;
 }
 
-.cont {
-	width:30%;
-	height:30%;
-}
-
-.cont2 {
-	width: 17%;
-	height: 17%
-}
-
-.cont:hover {
-	width:50%;
-	height:50%;
-}
-
-.cont2:hover {
-	width: 23%;
-	height: 23%;
-}
-
-.conta {
-	width: 40%;
-	height: 40%;
-}
 
 
-
-td {
-	width: 20%;
-}
-
-#int {
+.int {
 	font-weight: bold;
 }
 
-#ap {
+.ap {
 	text-decoration: line-through;
 }
 
-#np {
+.np {
 	color: red;
 }
 
@@ -202,16 +222,16 @@ td {
 	
 }
 
-#lint {
+.lint {
 	border-spacing: 5px 15px;
 	border-collapse: separate;
 }
 
-#lint span {
+.lint span {
 	font-weight: bold;
 }
 
-#com{
+.donpers{
 	color:white;
 	background: black;
 	border: 5px groove red;
@@ -232,7 +252,7 @@ td {
 	height: 29.8em;
 }
 
-#article{
+.article{
 	color:white;
 	background: black;
 	border: 5px groove red;
@@ -242,37 +262,72 @@ td {
 	height: 37.5em;
 }
 
-#imart{
+.cont {
+	width:30%;
+	height:30%;
+}
+
+.contgrand {
+	width: 17%;
+	height: 17%
+}
+
+.cont:hover {
+	width:50%;
+	height:50%;
+}
+
+.contgrand:hover {
+	width: 23%;
+	height: 23%;
+}
+
+.conta {
+	width: 40%;
+	height: 40%;
+}
+.contapant {
+	height: 20%;
+	width: 20%;
+}
+
+.contapetit {
+	height: 60%;
+	width: 60%;
+}
+
+.contagros {
+	height: 22%;
+	width: 22%;
+}
+
+.imart{
   max-height: 15%;
   overflow-y: scroll;
   table-layout: fixed;
 }
 
-#comart {
+.comart {
 	background-color: white;
 	color: black;
 }
 
-#news{
-  max-height: 15%;
-  overflow-y: scroll;
-  float: left;
-}
 
-form#paiement {
+
+form#formulaire {
   background: black;
   border-radius: 5px;
   padding: 2%;
   width: auto;
 }
 
-form#paiement fieldset {
+form#formulaire fieldset {
   border: none;
   margin-bottom: 2%;
 }
 
 
-form#paiement legend {
+form#formulaire legend {
   color: red;
   font-size: 100%;
   font-weight: bold;
@@ -280,13 +335,13 @@ form#paiement legend {
   text-shadow: -1px 1px 1px #980000;
 }
 
-form#paiement fieldset fieldset legend {
+form#formulaire fieldset fieldset legend {
   color: white;
   font-size: 80%;
   font-weight: normal;
 }
 
-form#paiement ol li {
+form#formulaire ol li {
   background: #b9cf6a;
   background: rgba(255,255,255,.3);
   border-color: #e3ebc3;
@@ -299,38 +354,44 @@ form#paiement ol li {
   padding: 1% 2%;
   margin-bottom: 2px;
 }
-form#paiement ol ol li {
+
+form#formulaire ol ol li {
   background: none;
   border: none;
   float: left;
 }
 
-form#paiement label {
+form#formulaire label {
   float: left;
   font-size: 80%;
   width: 20%;
 }
-form#paiement fieldset fieldset label {
+
+form#formulaire fieldset fieldset label {
   background:none no-repeat left 50%;
   line-height: 150%;
   padding: 0 0 0 35px;
   width: auto;
 }
-form#paiement label[for=visa] {
+
+form#formulaire label[for=visa] {
   background-image: url(images/visa.ico);
 }
-form#paiement label[for=amex] {
+
+form#formulaire label[for=amex] {
   background-image: url(images/amex.ico);
 }
-form#paiement label[for=mastercard] {
+
+form#formulaire label[for=mastercard] {
   background-image: url(images/mastercard.ico);
 }
-form#paiement fieldset fieldset label:hover {
+
+form#formulaire fieldset fieldset label:hover {
   cursor: pointer;
 }
 
-form#paiement input:not([type=radio]),
-form#paiement textarea {
+form#formulaire input:not([type=radio]),
+form#formulaire textarea {
   background: #ffffff;
   border: none;
   border-radius: 3px;
@@ -339,85 +400,30 @@ form#paiement textarea {
   padding: 1%;
   width: 50%;
 }
-form#paiement input:not([type=submit]):focus,
-form#paiement textarea:focus {
+
+form#formulaire input:not([type=submit]):focus,
+form#formulaire textarea:focus {
   background: #eaeaea;
 }
-form#paiement input[type=radio] {
+
+form#formulaire input[type=radio] {
   float: left;
   margin-right: 10px;
 }
 
-button {
-  background: red;
-  border: none;
-  border-radius: 20px;
-  color: white;
-  display: block;
-  font: 100% Verdana;
-  letter-spacing: 0.5px;
-  margin: auto;
-  padding: 1% 3%;
-  text-shadow: 1px 2px 1px black;
-  text-transform: uppercase;
-}
-button:hover {
-  background: #980000;
-  cursor: pointer;
+select {
+	width: 49%;
 }
 
-a {
-	text-decoration: none;
-}
-
-#imac1 {
-	float: left;
-	width: 50%;
-}
-
-#imac2 {
-	float: right;
-	width: 50%;
-
-}
-
-#logo {
-	width: 5%;
-}
-
-#aclogo {
-	width: 80%;
-	height: 80%;
-}
-
-#newsb {
-	background-color: white;
-	color: black;
-}
-
-#detail {
+.detail {
 	text-justify: auto;
 }
 
-#art {
+.art {
 	text-align: center;
 }
 
-#contapant {
-	height: 20%;
-	width: 20%;
-}
 
-#contapetit {
-	height: 60%;
-	width: 60%;
-}
-
-#contagros {
-	height: 22%;
-	width: 22%;
-}
-
-select {
-	width: 49%;
+#commentaire {
+	width: 50%;
 }
