@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='../images/skate.ico' rel='shortcut icon'/>
+		<title>OnlineSk4teSh0p - Données personnelles</title>
+	</head>
+
+	
+	<body>
+
+	<div>
+		<h1> Modifier vos informations </h1>
+	</div>
+	
+	<div>	
+	<section class="donpers">
+		<form id=formulaire>
+		<div>
+			<fieldset>
+			<legend> Pseudo </legend>
+				<ol>
+					<li>
+						<label for=nom>Pseudo actuel</label>
+						<input id=nom name=nom value="IUT-2016" disabled="disabled"/>
+					</li>
+					<li>
+						<label for=nom>Nouveau Pseudo</label>
+						<input id=nom name=nom type=texte placeholder="Un changement par semestre" required>
+					</li>
+					<li>
+						<label for=nom>Validation Pseudo</label>
+						<input id=nom name=nom type=texte placeholder="Validez votre nouveau pseudo" required>
+					</li>
+				</ol>
+			</fieldset>
+		</div>
+		<div>
+			<fieldset>
+			<legend>Email</legend>
+				<ol>
+					<li>
+						<label for=email>Adresse actuel</label>
+						<input id=email name=email value="iut-2016@univ-lyon1.fr" disabled="disabled"/>
+					</li>
+					<li>
+						<label for=email>Nouvelle adresse</label>
+						<input id=email name=email type=email placeholder="Votre nouvelle adresse mail" required>
+					</li>
+					<li>
+						<label for=email>Validation adresse</label>
+						<input id=email name=email type=email placeholder="Validez votre nouvelle adresse" required>
+					</li>
+					<li>
+						<label for=daten> Cacher l'adresse</label>
+						<input id=daten name=daten type=checkbox>
+					</li>
+				</ol>
+			</fieldset>
+		</div>
+		<div>
+			<fieldset>
+			<legend> Date de naisance </legend>
+				<ol>
+					<li>
+						<label for=daten> Date actuelle </label>
+						<input id=daten name=daten type=text value="28/10/1997" disabled="disabled"/>
+					</li>
+					<li>
+						<label for=daten> Nouvelle Date </label>
+						<input id=daten name=daten type=text placeholder="Sous le format JJ/MM/AAAA" required>
+					</li>
+					<li>
+						<label for=daten> Cacher la date</label>
+						<input id=daten name=daten type=checkbox>
+					</li>
+				</ol>
+			</fieldset>
+		</div>
+		<div>
+			<fieldset>
+			<legend> Sexe </legend>
+				<ol>
+				<li>
+				<label for=sexe> Sexe</label>
+				<select name="Sexe">
+					<option value="Homme"> Homme </option>
+					<option value="Femme"> Femme </option>
+					<option value="Secret"> Secret </option>
+					<option value="Autre"> Autre </option>
+				</select>
+				</li>
+			</fieldset>
+		</div>
+		<div>
+			<fieldset>
+					<a href="findonperso.html"><button type=submit>Mettre à jour mes informations</button></a>
+			</fieldset>
+		</div>
+		<div>
+			<fieldset>
+					<a href="compte.html"><button>Retour sur votre compte</button></a>
+			</fieldset>
+		</div>
+			</form>
+		</section>
+	</div>
+		
+			
+	</body>
+</html>
